@@ -21,8 +21,7 @@ $sortable_th = [
 // list tr id: ***_list
 ?>
 <div class="contents">
-<p>FainalFantasy14 onlineのコンテンツ【探検手帳】の一覧が確認できるアプリケーション</p>
-<p>DOM操作、Jquery/Ajax、PHPセッションなどの練習用</p>
+
 <div class="ss_wrap">
 <p>探検手帳</p>
 <div class="flex">

@@ -1,11 +1,4 @@
 //セッション保存に成功したら画面作成関数にする
-
-let ss_mord= new Array();
-for (let i = 0; i < 80; i++) {
-  ss_mord[i] = 0;
-}
-let page = 0; //現在ページ
-let level = 0; //level:0
   
 function ss_start() { //これはページの初期化処理
 
@@ -85,7 +78,7 @@ $(function () {
       var ss_id = $(this).attr('id');
         var timer = setTimeout(function() {
           // console.log("click");
-          $('#sightseeing_view').text('探索手帳'+parseFloat(ss_id)+'番の詳細説明');
+          $('#sightseeing_view').text('探検手帳'+parseFloat(ss_id)+'番の詳細説明');
         }, 200);
         click_timer[click_num] = timer;
         click_num++;

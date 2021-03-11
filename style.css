@@ -1,7 +1,7 @@
 @charset "utf-8";
 @import "./re.css";
 
-body{
+body {
   background-color: #eee;
 }
 
@@ -74,6 +74,9 @@ table.log td {
 }
 .off {
   background-color: #930;
+}
+.log_bt.off:hover {
+  background-color: #610;
 }
 
 .page_bt {

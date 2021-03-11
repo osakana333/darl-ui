@@ -16,7 +16,7 @@ $input = filter_input_array(INPUT_POST, $posts);
 
 $input['ss_mord'] = json_decode($input['ss_mord'],true);
 
-if (!is_array($_SESSION)) {
+if (!isset($_SESSION['ss_mord'])||!isset($_SESSION['page'])||!isset($_SESSION['level'])) {
   foreach ($input['ss_mord'] as $key => $value) {
     $_SESSION['ss_mord'][$key] = $value;
   }
